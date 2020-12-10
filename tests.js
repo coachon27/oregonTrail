@@ -13,7 +13,7 @@ console.log(`Wagon Seat Count?: ${ wagon.getAvailableSeatCount() } – EXPECTED:
 henrietta.hunt()   // Henrietta goes in search of food.
 juan.eat()         // Juan eats – as Juan does. 🤣
 juan.eat()         // Juan has run out of food!
-console.log(juan)
+//console.log(juan)
 console.log(`Wagon Should Quarantine?: ${ wagon.shouldQuarantine() } – EXPECTED: true. Juan has run out of food and become unhealthy!`)
 console.log(`Wagon's Total Food?: ${ wagon.totalFood() } – EXPECTED: 3.`)
 wagonDiv.append(lnBrk, "You have a wagon with a capacity of " + wagon.capacity)

@@ -9,11 +9,12 @@ class Traveler {
     console.log(this.name + " has a food total of: " + this.food);
   }
   eat() {
-    if (this.food <= 0) {
+    if (this.food === 0) {
       console.log(this.name + ", can't eat anymore. You have no food!");
-      return (this.isHealthy = false);
+      this.isHealthy = false;
+    } else {
+      this.food -= 1;
     }
-    this.food--;
   }
 }
 
